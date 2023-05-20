@@ -1,0 +1,57 @@
+body
+{
+    background-image: linear-gradient(120deg, rgb(223, 121, 201) , rgb(148, 199, 81));
+    font-family:'Luckiest Guy';
+    font-size:40px;
+}
+
+h1
+{
+font-size:60px;
+}
+
+#score
+{
+font-size:50px;
+float:left;
+margin-left:20px;
+}
+
+#timer
+{
+font-size:50px;
+float:right;
+margin-right:100px;
+}
+
+#sketch_to_be_drawn
+{
+  color:aliceblue;
+}
+
+#sketch_name
+{
+  color:aliceblue;
+}
+
+canvas
+{
+  margin-top:140px;
+  border-radius:20px;
+  border:5px solid white;
+  animation-name:shadow;
+  animation-duration:5s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes shadow
+{
+from
+{
+  box-shadow:1px 1px 38px black;
+}
+to 
+{
+box-shadow:1px 1px 38px white;  
+}
+}
